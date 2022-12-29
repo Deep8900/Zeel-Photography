@@ -550,29 +550,29 @@ button{
     max-width: 100%;
     padding: 0 65px;
 }
-.contact-sec .contact-form .form{
+.contact-sec .contact-form #myForm{
     padding: 55px 40px;
     margin-top: -150px;
     background-color: #f3f2f1;
 }
-.contact-sec .contact-form .form label{
+.contact-sec .contact-form #myForm label{
     color: #000;
     font-weight: 500;
     display: block;
     margin: 0 0 5px;
 }
-.contact-sec .contact-form .form .input-group{
+.contact-sec .contact-form #myForm .input-group{
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0 15px;
     margin-bottom: 30px;
 }
-.contact-sec .contact-form .form .input-group.left,
-.contact-sec .contact-form .form .input-group.right{
+.contact-sec .contact-form #myForm .input-group.left,
+.contact-sec .contact-form #myForm .input-group.right{
     flex: 0 0 100%;
     max-width: 50%;
 }
-.contact-sec .contact-form .form .input-control{
+.contact-sec .contact-form #myForm .input-control{
     width: 100%;
     height: 45px;
     padding: 6px 0px;
@@ -582,14 +582,14 @@ button{
     border: none;
     border-bottom: 1px solid #ccc;
 }
-.contact-sec .contact-form .form .input-control:focus{
+.contact-sec .contact-form #myForm .input-control:focus{
     outline: none;
 }
-.contact-sec .contact-form .form textarea.input-control{
+.contact-sec .contact-form #myForm textarea.input-control{
     height: 140px;
     resize: none;
 }
-.contact-sec .contact-form .form .form-btn{
+.contact-sec .contact-form #myForm .form-btn{
     text-align: center;
 }
 .contact-sec .contact-info a{
@@ -763,5 +763,4 @@ footer{
     .contact-sec .contact-form .form{
         padding: 55px 5px;
     }
-
 }
