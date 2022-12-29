@@ -254,25 +254,25 @@
 
         <div class="row">
             <div class="contact-form">
-                <form action="" class="form">
+                <form action="https://formspree.io/f/mbjervbb" method="POST" id="myForm">
                     <div class="row">
                         <div class="left input-group">
                             <label>Name</label>
-                            <input type="text" placeholder="Your Name Here" class="input-control">
+                            <input type="text" name="Name" placeholder="Your Name Here" class="input-control" required>
                         </div>
                         <div class="right input-group">
                             <label>Email</label>
-                            <input type="text" placeholder="Your Email Here" class="input-control">
+                            <input type="text" name="Email" placeholder="Your Email Here" class="input-control" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-group">
                             <label>Message</label>
-                            <textarea placeholder="Your Message Here" class="input-control"></textarea>
+                            <textarea name="Message" placeholder="Your Message Here" class="input-control"></textarea>
                         </div>
                     </div>
                     <div class="form-btn">
-                        <button type="button" class="btn btn-01">Send Message</button>
+                        <button type="submit" class="btn btn-01">Send Message</button>
                     </div>
                 </form>
             </div>
@@ -310,7 +310,8 @@
         <div class="row">
             <div class="social-links">
                 <a href="https://facebook.com" title="facebook" target="_blank"><img src="img/icons/facebook.svg" alt="facebook"></a>
-                <a href="https://twitter.com" title="twitter" target="_blank"><img src="img/icons/twitter.svg" alt="twitter"></a>
+                <a href="https://twitter.com" title="twitter"
+                target="_blank"><img src="img/icons/twitter.svg" alt="twitter"></a>
                 <a href="https://linkedin.com" title="linkedin" target="_blank"><img src="img/icons/linkedin.svg" alt="linkedin"></a>
                 <a href="https://instagram.com" title="instagram" target="_blank"><img src="img/icons/instagram.svg" alt="instagram"></a>
             </div>
